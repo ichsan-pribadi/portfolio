@@ -297,24 +297,24 @@
             </div>
 
         </div>
-        <form>
+        <form action="https://formsubmit.co/a49fbc4e68c8c2962585dc5d5e0f264b" method="POST">
             <div class="w-full lg:w-2/3 lg:mx-auto">
                 <div class="w-full mb-8 px-4">
                     <label for="name" class="text-base text-primary font-bold">Nama</label>
-                    <input type="text" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                    <input type="text" id="name" name="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" required>
                 </div>
                 <div class="w-full mb-8 px-4">
                     <label for="email" class="text-base text-primary font-bold">Email</label>
-                    <input type="email" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                    <input type="email" id="email" name="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" required>
                 </div>
                 <div class="w-full mb-8 px-4">
                     <label for="message" class="text-base text-primary font-bold">Pesan</label>
-                    <textarea type="text" id="name" class="h-32 w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                    <textarea type="text" id="message" name="message" class="h-32 w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" required>
                     </textarea>
                 </div>
                 <div class="w-full px-4">
                     <button class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full
-                    hover:opacity-80 hover:shadow-lg transition duration-500">Kirim</button>
+                    hover:opacity-80 hover:shadow-lg transition duration-500" type="submit">Kirim</button>
                 </div>
             </div>
         </form>
